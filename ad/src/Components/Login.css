@@ -1,0 +1,21 @@
+*{
+    justify-content: center  ;
+}
+.log
+{
+    display: flex;
+    margin-top: 25vh;
+    justify-content: center;
+    border: 1px solid rgb(2, 2, 54);
+    width: 400px;
+    height: 220px;
+    margin-left: 35%;
+    background-color: #7e7b7b;
+    border-radius: 10px;
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(89,73,93,1) 0%, rgba(217,202,219,0.4854183250448617) 43%, rgba(0,212,255,0.21090852112329306) 72%);
+}
+
+       
