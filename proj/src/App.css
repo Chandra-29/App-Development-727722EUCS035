@@ -1,0 +1,21 @@
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.switch-text {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #007bff;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.switch-text:hover {
+  color: #0056b3;
+}
