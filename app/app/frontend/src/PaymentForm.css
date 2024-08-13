@@ -1,0 +1,94 @@
+/* PaymentForm.css */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensure full height for scrolling */
+  width:100%; /* Ensure full width */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  background-image: url(''); /* Background image URL */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ensure container takes at least full viewport height */
+  width:500dvh;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgb(247, 247, 243);
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThUdG_am1kXR3lMRR82eqcQOoX-ExGlbCltA&usqp=CAU'); /* Background image URL */
+   background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+}
+
+.payment-form {
+  background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  padding: 40px; /* Increase padding inside the form */
+  border-radius: 12px; /* Increase border-radius for a more rounded look */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Stronger shadow for prominence */
+  width: 90%; /* Make form width responsive */
+  max-width: 600px; /* Increase max-width for larger forms */
+}
+
+h2 {
+  color: #333; /* Darker color for the heading text */
+  font-size: 2.5rem; /* Increase font size for the heading */
+  margin-bottom: 30px; /* Increase space below the heading */
+}
+
+.form-group {
+  margin-bottom: 20px; /* Increase space between form groups */
+}
+
+label {
+  display: block;
+  font-size: 1.125rem; /* Increase font size for labels */
+  margin-bottom: 8px; /* Increase space below labels */
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 12px; /* Increase padding inside input fields */
+  font-size: 1.125rem; /* Increase font size for input text */
+  border: 1px solid #ccc;
+  border-radius: 6px; /* Increase border-radius for input fields */
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.error-message {
+  color: #d9534f;
+  font-size: 0.9rem; /* Adjust error message font size */
+  margin-top: 10px;
+}
+
+.loading-message {
+  font-size: 1.125rem; /* Increase font size for loading message */
+  color: #007bff;
+}
+
+.cta-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 24px; /* Increase padding for the button */
+  font-size: 1.125rem; /* Increase font size for the button text */
+  border-radius: 6px; /* Increase border-radius for the button */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
